@@ -1,9 +1,11 @@
 Getting this set up in CI
 
-download and install jenkins msi
-add proxy details (jse\username) copy server details from intrernet options
-add git and msbuild plugins
-add MSBuild installation - in Jenkins > Manage Jenkins > Configure, under MSBuild installations. Path to build something like C:\Windows\Microsoft.NET\Framework64\v4.0.30319
+-download and install jenkins msi
+-add proxy details (jse\username) copy server details from intrernet options
+-add git (or github) and msbuild plugins
+-for git go to Jenkins > Manage Jenkins > Configure and set git.exe path (or add to path)
+- for git set correct .gitconfig for jenkins user (or make jenkins run as another user)
+-add MSBuild installation - in Jenkins > Manage Jenkins > Configure, under MSBuild installations. Path to build something like C:\Windows\Microsoft.NET\Framework64\v4.0.30319
 
 Add new job for the app:
 Select Git under Source Code Management
