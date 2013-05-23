@@ -9,7 +9,7 @@ namespace MvcApplication.Tests
         [TestMethod]
         public void TestMethod1()
         {
-            Assert.AreEqual(2, 1+1);
+            Assert.AreEqual(2, 1);
         }
     }
 }
